@@ -1,0 +1,27 @@
+{
+  "configurations" : [
+    {
+      "id" : "9BAECB99-C89E-44B0-B2C1-952A8336DF25",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "EConceptTests"
+      ],
+      "target" : {
+        "containerPath" : "container:EConcept.xcodeproj",
+        "identifier" : "F4D754952949E51B0094F52B",
+        "name" : "EConceptTests"
+      }
+    }
+  ],
+  "version" : 1
+}
